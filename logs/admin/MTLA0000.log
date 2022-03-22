@@ -1,0 +1,12 @@
+21-02-2022 12:38:21 | Add appointment | [MTLA210222, server.AppointmentType@6e2c634b, 15] | Success: Appointment Added | false
+21-02-2022 12:39:03 | List appointment | [server.AppointmentType@6e2c634b] | List appointment server.AppointmentType@9807454: [MTLE030222  2, MTLA030222  1, MTLA210222  15, MTLM010222  0, ] | false
+21-02-2022 23:42:13 | List appointment | [PHYSICIAN] | List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,] | false
+21-02-2022 23:42:22 | Cancel Appointment Schedule | [MTLA0000, MTLA030222, PHYSICIAN, QUEA040222, PHYSICIAN] | Failed: No record found of [MTLA0000, MTLA030222] | false
+23-02-2022 10:37:58 | Add appointment | [MTLA230222, PHYSICIAN, 15] | Success: Appointment Added | false
+23-02-2022 14:33:41 | Remove appointment | [MTLA220222, PHYSICIAN] | Failed: No appointment is available with appointmentId: MTLA220222 | false
+23-02-2022 14:36:12 | List appointment | [DENTAL] | List appointment DENTAL: [MTLA010222  1, MTLE030222  3, MTLA020222  8, MTLM030222  0, SHEA050222  3,QUEA010222  4, QUEA020222  9,] | false
+23-02-2022 14:36:31 | List appointment | [SURGEON] | List appointment SURGEON: [MTLA030222  0, MTLM030222  0, SHEE070222  0,] | false
+23-02-2022 14:36:35 | List appointment | [PHYSICIAN] | List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,] | false
+23-02-2022 14:43:38 | Add appointment | [MTLA230222, PHYSICIAN, 15] | Success: Appointment Added | false
+07-03-2022 20:28:53 | Get Appointment Schedule | [MTLA0000] | Appointment Schedule of MTLA0000 [] | false
+07-03-2022 20:28:57 | List appointment | [PHYSICIAN] | List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,QUEA040222  6,] | false

@@ -1,0 +1,23 @@
+module server
+{
+	enum AppointmentType { PHYSICIAN, SURGEON, DENTAL};
+	
+	interface HospitalServerInterface
+  	{
+        string addAppointment(in string appointmentID, in AppointmentType appointmentType, in long capacity);
+
+        string removeAppointment(in string appointmentID, in AppointmentType appointmentType);
+
+        string listAppointmentAvailability(in AppointmentType appointmentType);
+
+        string bookAppointment(in string patientID, in string appointmentID, in AppointmentType appointmentType);
+
+        string getAppointmentSchedule(in string patientID);
+
+        string cancelAppointment(in string patientID, in string appointmentID);
+
+        string swapAppointment(in string patientID, in string oldAppointmentID, in AppointmentType oldAppointmentType, in string newAppointmentID, in AppointmentType newAppointmentType);
+
+	    oneway void shutdown();
+    };
+};
